@@ -1,12 +1,12 @@
 <?php
 $host = "localhost";
-$user = "root";  // Default XAMPP tidak pakai password
+$user = "root";
 $pass = "";
 $db   = "gaji_engineer";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
-// Cek koneksi
+// cek koneksi
 if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
