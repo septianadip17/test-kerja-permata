@@ -11,7 +11,7 @@ $result = mysqli_query($conn, "SELECT * FROM engineer");
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gradient-to-r from-blue-100 to-purple-100 min-h-screen">
-  <div class="container mx-auto px-4 py-8">
+  <div class="container mx-auto px-10 py-8">
     <div class="flex justify-between items-center mb-8">
       <h1 class="text-4xl font-extrabold text-gray-800">Daftar Gaji Engineer</h1>
       <a href="tambah.php" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded shadow-lg transition duration-200">
